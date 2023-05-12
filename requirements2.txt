@@ -1,0 +1,2 @@
+pytorch_lightning==1.6.5
+wandb==0.13.10

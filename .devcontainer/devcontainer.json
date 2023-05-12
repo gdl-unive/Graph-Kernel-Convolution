@@ -1,0 +1,42 @@
+{
+    "name": "Existing Dockerfile",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "python",
+    "workspaceFolder": "/script",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "files.eol": "\n",
+                "files.insertFinalNewline": true,
+                "files.trimFinalNewlines": true,
+                "editor.formatOnSave": true,
+                "python.formatting.autopep8Args": [
+                    "--max-line-length=120",
+                    "--ignore",
+                    "E402"
+                ],
+                "autoDocstring.docstringFormat": "google",
+                "python.languageServer": "Pylance",
+                "rewrap.wrappingColumn": 120,
+                "cSpell.language": "en,it"
+            },
+            "extensions": [
+                "streetsidesoftware.code-spell-checker",
+                "streetsidesoftware.code-spell-checker-italian",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "eriklynd.json-tools",
+                "michael-sundvick.ampl",
+                "wmaurer.change-case",
+                "naumovs.color-highlight",
+                "pkief.material-icon-theme",
+                "njpwerner.autodocstring",
+                "natqe.reload",
+                "stkb.rewrap",
+                "gruntfuggly.todo-tree"
+            ]
+        }
+    }
+}
